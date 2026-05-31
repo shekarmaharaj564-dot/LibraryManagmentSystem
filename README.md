@@ -71,9 +71,3 @@ src/
 
 ---
 
-## How to Run
-
-### Compile
-
-```bash
-javac *.java
