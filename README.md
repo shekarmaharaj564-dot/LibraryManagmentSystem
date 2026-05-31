@@ -1,73 +1,31 @@
 # Library Management System
 
-## Overview
+This project is developed using Java and OOP concepts.
 
-This project is a simple Library Management System developed in Java using Object-Oriented Programming (OOP) principles.
+Features:
+- Add Book
+- Show Books
+- Search Book
+- Issue Book
+- Return Book
+- Duplicate Book ID Validation
 
-The application allows:
-
-- Adding books
-- Adding users
-- Issuing books to users
-- Returning books
-- Searching books
-- Viewing available books
-- Viewing issued books
-
-The project demonstrates the use of:
-
+Concepts Used:
 - OOP Concepts
 - ArrayList
 - HashMap
 - Exception Handling
-- Java 8 Lambda Expressions
-- Java 8 Streams API
-
----
-
-## Technologies Used
-
-- Java 8+
-- Collections Framework
-  - ArrayList
-  - HashMap
-- Streams API
+- Java 8 Streams
 - Lambda Expressions
 
----
+Files:
+- Book.java
+- User.java
+- Library.java
+- InvalidBookOperationException.java
+- Main.java
 
-## Project Structure
-
-src/
-├── Book.java
-├── User.java
-├── Library.java
-├── LibraryException.java
-└── Main.java
-
----
-
-## Features
-
-### Book Management
-- Store book details
-- Display all books
-- Search books by title
-
-### User Management
-- Store user details
-- Display all users
-
-### Issue and Return Books
-- Issue books to registered users
-- Return issued books
-- Track which user borrowed which book
-
-### Exception Handling
-- Book not found
-- User not found
-- Book already issued
-- Book not issued
-
----
-
+How to Run:
+1. Open project in Eclipse
+2. Run Main.java
+3. Use menu options in console
